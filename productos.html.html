@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style type="text/css">
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.productos {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+}
+
+.producto {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+    background: #fff;
+    transition: transform 0.2s;
+}
+
+.producto:hover {
+    transform: scale(1.05);
+}
+
+.producto img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.precio {
+    font-size: 1.5em;
+    color: #e67e22;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    </style>
+    <header>
+        <h1>PRODUCTOS</h1>
+        
+    </header>
+
+    <section class="productos">
+        <h2>NUESTROS PRODUCTOS</h2>
+        <div class="producto" data-id="1">
+            <img src="PRODUCT1.ico" alt="Canguro over size" width="300" height="350">
+            <h3>Canguro over size</h3>
+            <p></p>
+        </div>
+        <div class="producto" data-id="2">
+            <img src="PRODUCT2.ico" alt="Chompa de hilo" width="300" height="350">
+            <h3>Chompa de hilo</h3>
+            <p></p>
+        </div>
+        <div class="producto" data-id="3">
+            <img src="PRODUCT3.ico" alt="Blusas basicas de encaje" width="300" height="350">
+            <h3>Blusas basicas de encaje</h3>
+            <p></p>
+        </div>
+        <div class="producto" data-id="4">
+            <img src="PRODUCT4.ico" alt="Sudaderas over size"  width="300" height="350">
+            <h3>Sudaderas over size</h3>
+            <p></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; LUHUSMODAS</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
